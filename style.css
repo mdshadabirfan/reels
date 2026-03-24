@@ -120,10 +120,13 @@ main section{
     font-weight: 100;
     cursor: pointer;
 }
-.reel .right .icon .filled{
+.reel .right .icon .like-filled{
     color: red;
 }
 .reel .right h6{
     font-size: 13px;
     font-weight: 500;
+}
+.reel .save .save-filled{
+    color: black;
 }

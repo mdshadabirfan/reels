@@ -10,7 +10,7 @@ const reelsData = [
     isLiked: false,
     shareCount: 320,
     commentCount: 210,
-    isSaved: false,
+    isSaved: true,
     saveCount: 234,
   },
   {
@@ -52,7 +52,7 @@ const reelsData = [
     isLiked: true,
     shareCount: 780,
     commentCount: 410,
-    isSaved: false,
+    isSaved: true,
     saveCount: 234,
   },
   {
@@ -94,7 +94,7 @@ const reelsData = [
     isLiked: false,
     shareCount: 300,
     commentCount: 180,
-    isSaved: false,
+    isSaved: true,
     saveCount: 234,
   },
   {
@@ -122,7 +122,7 @@ const reelsData = [
     isLiked: true,
     shareCount: 520,
     commentCount: 410,
-    isSaved: false,
+    isSaved: true,
     saveCount: 234,
   },
   {
@@ -157,7 +157,7 @@ reelsData.forEach((elem, idx) => {
                     </div>
                     <div class="right">
                         <div class="like">
-                            <h4 class="like-icon icon">${elem.isLiked? '<i class="ri-heart-fill filled"></i>' : '<i class="ri-heart-line">'}</i></h4>
+                            <h4 class="like-icon icon">${elem.isLiked? '<i class="ri-heart-fill like-filled"></i>' : '<i class="ri-heart-line">'}</i></h4>
                             <h6>${elem.likeCount}</h6>
                         </div>
                         <div class="comment">
@@ -169,7 +169,7 @@ reelsData.forEach((elem, idx) => {
                             <h6>${elem.shareCount}</h6>
                         </div>
                         <div class="save">
-                            <h4 class="save-icon icon"><i class="ri-bookmark-line"></i></h4>
+                            <h4 class="save-icon icon">${elem.isSaved? '<i class="ri-bookmark-fill save-filled"></i>' : '<i class="ri-bookmark-line"></i>'}</h4>
                             <h6>${elem.saveCount}</h6>
                         </div>
                         <div class="menu">
