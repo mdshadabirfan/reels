@@ -1,5 +1,6 @@
 const reelsData = [
   {
+    isPaused: false,
     isMuted: true,
     video:
       "./videos/video_1.mp4",
@@ -210,6 +211,7 @@ reelsContainer.addEventListener("click", (e)=>{
   const commentBtn = e.target.closest(".comment");
   const shareBtn = e.target.closest(".share");
   const muteBtn = e.target.closest(".mute");
+  
 
   if(likeBtn){
     clickedReelObject.isLiked = !clickedReelObject.isLiked;
@@ -276,6 +278,23 @@ else if (shareBtn) {
     clickedReelObject.isMuted = true;
     video.muted = true;
     icon.className = "ri-volume-mute-fill";
+  }
+  
+}
+else{
+  const video = clickedReel.querySelector("video");
+  const muteBtn = clickedReel.querySelector(".mute");
+  const muteIcon = muteBtn.querySelector("i");
+  if(video.paused){
+    video.play();
+    muteIcon.className = "ri-volume-up-fill";
+    video.muted = false;
+  }else{
+    video.pause();
+    muteIcon.className = "ri-volume-mute-fill";
+    video.muted = true;
+    // muteBtn.i.className = "ri-volume-mute-fill";
+    // clickedReel.querySelector(".mute").i.className = "ri-volume-mute-fill"
   }
 }
 })

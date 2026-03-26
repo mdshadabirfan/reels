@@ -67,6 +67,7 @@ main section{
     height: 100%;
     object-fit: cover;
     object-position: left;
+    cursor: pointer;
 }
 .reel .bottom{
     width: 100%;
