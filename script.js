@@ -2,7 +2,7 @@ const reelsData = [
   {
     isMuted: true,
     video:
-      "./videos/Lulu_Yadav_the_real_OG_memes_politics_laluyadav_funny_viral_trending_144P.mp4",
+      "./videos/video_1.mp4",
     profilePicture: "https://randomuser.me/api/portraits/women/11.jpg",
     userName: "funwithlucy",
     isFollowed: false,
