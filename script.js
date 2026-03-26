@@ -253,6 +253,7 @@ else if (shareBtn) {
 }
 
    else if (muteBtn) {
+
   const allVideos = reelsContainer.querySelectorAll("video");
   const allMuteBtns = reelsContainer.querySelectorAll(".mute");
 
@@ -260,7 +261,7 @@ else if (shareBtn) {
   const icon = muteBtn.querySelector("i");
 
   if (clickedReelObject.isMuted) {
-    
+
     reelsData.forEach(r => r.isMuted = true);
 
     allVideos.forEach(vid => vid.muted = true);
@@ -279,22 +280,14 @@ else if (shareBtn) {
     video.muted = true;
     icon.className = "ri-volume-mute-fill";
   }
-  
 }
-else{
+else {
   const video = clickedReel.querySelector("video");
-  const muteBtn = clickedReel.querySelector(".mute");
-  const muteIcon = muteBtn.querySelector("i");
-  if(video.paused){
+
+  if (video.paused) {
     video.play();
-    muteIcon.className = "ri-volume-up-fill";
-    video.muted = false;
-  }else{
+  } else {
     video.pause();
-    muteIcon.className = "ri-volume-mute-fill";
-    video.muted = true;
-    // muteBtn.i.className = "ri-volume-mute-fill";
-    // clickedReel.querySelector(".mute").i.className = "ri-volume-mute-fill"
   }
 }
 })
