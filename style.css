@@ -36,11 +36,30 @@ main section{
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     border-radius: 10px;
     margin-bottom: 30px;
     scroll-snap-align: start;
     scroll-snap-stop: always;
+}
+.reel .mute{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.reel .mute i{
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
 }
 .reel video{
     border-radius: 10px;
@@ -114,11 +133,13 @@ main section{
 }
 .reel .right > div{
     text-align: center;
+    cursor: pointer;
 }
 .reel .right .icon{
     font-size: 30px;
     font-weight: 100;
     cursor: pointer;
+    pointer-events: none;
 }
 .reel .right .icon .like-filled{
     color: red;
@@ -126,7 +147,22 @@ main section{
 .reel .right h6{
     font-size: 13px;
     font-weight: 500;
+    pointer-events: none;
+    user-select: none;
 }
 .reel .save .save-filled{
     color: black;
+}
+
+.reel .right > div.active {
+  transform: scale(1.25);
+  transition: transform 0.15s ease;
+}
+
+.reel .right .comment.active .icon i {
+  color: #4fc3f7;
+}
+
+.reel .right .share.active .icon i {
+  color: #66bb6a;
 }
