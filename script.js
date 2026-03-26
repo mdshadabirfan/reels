@@ -3,11 +3,11 @@ const reelsData = [
     isMuted: true,
     video:
       "./videos/video_1.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/women/11.jpg",
-    userName: "funwithlucy",
+    profilePicture: "https://yt3.ggpht.com/CE60taNr561O1TEcqf8leO9EldTysg5LhqI8f_Mf7esbNVFxn77YTI2EGuKwdb794ZdJks7z=s48-c-k-c0x00ffffff-no-rj",
+    userName: "geoglobetales",
     isFollowed: false,
-    description: "Playing with my new friend 🤖",
-    tags: "#robot #fun #enjoy",
+    description: "The reason why South and North Korea are enemies",
+    tags: "#korea #south #north #history",
     likeCount: 12430,
     isLiked: false,
     shareCount: 320,
@@ -18,11 +18,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_2.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/men/21.jpg",
-    userName: "happyJiehong",
+    profilePicture: "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg",
+    userName: "got_fan",
     isFollowed: true,
-    description: "watching somme old movies",
-    tags: "#tv #friends #smile",
+    description: "When jon meets theon after his betrayal😡",
+    tags: "#jonsnow #got #fan",
     likeCount: 8932,
     isLiked: true,
     shareCount: 210,
@@ -33,11 +33,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_3.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/women/32.jpg",
-    userName: "engineer_Shadab",
+    profilePicture: "https://yt3.ggpht.com/sQlwCNEVDQ-BQ0n-cyHkZ2WykIaz9mCxiq4SlbWjbITYulw75dJQW__AW42O4Y6FfVzaZR-ZBA=s176-c-k-c0x00ffffff-no-rj-mo",
+    userName: "ezsnippet",
     isFollowed: false,
-    description: "Video calling my mom from abroad",
-    tags: "#love #video",
+    description: "Design whatsapp to get a job in Google👏",
+    tags: "#job #google #ezsnippet",
     likeCount: 15420,
     isLiked: false,
     shareCount: 540,
@@ -48,11 +48,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_4.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/men/44.jpg",
-    userName: "nature_with_arjun",
+    profilePicture: "https://yt3.ggpht.com/CoxkM-bkUecdch2e4R7gaa5gyMAqrhKrYqyjTL0_kkJ1lUb44-cNA5tAOYKX1jAk1OVEU1qO6g=s176-c-k-c0x00ffffff-no-rj-mo",
+    userName: "trackintech",
     isFollowed: true,
-    description: "Walking on iceland greenery",
-    tags: "#nature #greenery",
+    description: "WhatsApp trick everyone should follow😮",
+    tags: "#whatsapp #trick #tech",
     likeCount: 11200,
     isLiked: true,
     shareCount: 780,
@@ -63,11 +63,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_5.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/women/55.jpg",
-    userName: "spicejet_airlines",
+    profilePicture: "https://herfootballhub.com/wp-content/uploads/2024/11/england-v-united-states-womens-international-friendly-2-scaled.jpg",
+    userName: "goal_keeping_crazy",
     isFollowed: false,
-    description: "Experience the new adventure with spicejet ✈️",
-    tags: "#flight #window",
+    description: "How everyone goal keep vs robot...",
+    tags: "#football #goal #ronaldo",
     likeCount: 18900,
     isLiked: true,
     shareCount: 640,
@@ -78,11 +78,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_6.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/men/66.jpg",
-    userName: "cheap_gadgets",
+    profilePicture: "https://5.imimg.com/data5/SELLER/Default/2021/12/RP/ED/HF/99547795/3-500x500.jpg",
+    userName: "patternmastergenie",
     isFollowed: true,
-    description: "Trying my new DSLR shooting a reel",
-    tags: "#dslr #reel #experience",
+    description: "Playing with wooden patterns to just have fun..",
+    tags: "#wood #pattern #fun",
     likeCount: 22300,
     isLiked: false,
     shareCount: 910,
@@ -93,11 +93,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_7.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/women/77.jpg",
-    userName: "joysnow",
+    profilePicture: "https://i.ytimg.com/vi/NSVwmtz5A68/maxresdefault.jpg",
+    userName: "random_asmr_videos",
     isFollowed: false,
-    description: "What if you could walk on Mars 🤔",
-    tags: "#mars #universe",
+    description: "Some activity with wood to make it work 🤔",
+    tags: "#experience #fun #hammer",
     likeCount: 9400,
     isLiked: false,
     shareCount: 300,
@@ -108,11 +108,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_8.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/men/88.jpg",
-    userName: "viralcats",
+    profilePicture: "https://www.cleva-uk.com/cdn/shop/files/VacmasterCA0701UKEasyCleanDirtyWater.webp?v=1740407262&width=2000",
+    userName: "carpetcleaning",
     isFollowed: true,
-    description: "When your cat plays piano...",
-    tags: "#cats #piano #love",
+    description: "When you don't want to buy a new carpet...",
+    tags: "#carpet #cleaning",
     likeCount: 13200,
     isLiked: true,
     shareCount: 450,
@@ -123,11 +123,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_9.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/women/12.jpg",
-    userName: "marjunrathod",
+    profilePicture: "https://www.popsci.com/wp-content/uploads/2024/08/Dodo-Sculpture.jpg?quality=85",
+    userName: "the_extincts",
     isFollowed: false,
-    description: "Rope skipping in community park with others",
-    tags: "#ropeskipping #exercise",
+    description: "What if dodo woudn't have extincted...🦤",
+    tags: "#dodo #save #extinctanimal",
     likeCount: 16700,
     isLiked: true,
     shareCount: 520,
@@ -138,11 +138,11 @@ const reelsData = [
   {
     isMuted: true,
     video: "./videos/video_10.mp4",
-    profilePicture: "https://randomuser.me/api/portraits/men/23.jpg",
-    userName: "dream_cars",
+    profilePicture: "https://img.freepik.com/free-vector/hand-drawn-butcher-cartoon-illustration_23-2151046700.jpg",
+    userName: "butcher_at_home",
     isFollowed: false,
-    description: "Consistency beats motivation and gets you a car🚀",
-    tags: "#motivation #success #mindset",
+    description: "When you get your new toys and want to take their use",
+    tags: "#toy #butcher #knife",
     likeCount: 20100,
     isLiked: false,
     shareCount: 870,
@@ -214,23 +214,17 @@ reelsContainer.addEventListener("click", (e)=>{
   if(likeBtn){
     clickedReelObject.isLiked = !clickedReelObject.isLiked;
     clickedReelObject.likeCount += clickedReelObject.isLiked? 1 : -1;
-    console.log(clickedReelObject.likeCount)
-    const icon = likeBtn.querySelector("i");
-    const count = likeBtn.querySelector("h6");
     
-    icon.className = clickedReelObject.isLiked? 'ri-heart-fill like-filled' : 'ri-heart-line';
-    count.textContent = clickedReelObject.likeCount;
+    likeBtn.querySelector("i").className = clickedReelObject.isLiked? 'ri-heart-fill like-filled' : 'ri-heart-line';
+    likeBtn.querySelector("h6").textContent = clickedReelObject.likeCount;
   }
 
   else if (saveBtn){
     clickedReelObject.isSaved = !clickedReelObject.isSaved;
     clickedReelObject.saveCount += clickedReelObject.isSaved? 1 : -1;
 
-    const icon = saveBtn.querySelector("i");
-    const count = saveBtn.querySelector("h6");
-
-    icon.className = clickedReelObject.isSaved? 'ri-bookmark-fill save-filled':'ri-bookmark-line';
-    count.textContent = clickedReelObject.saveCount;
+    saveBtn.querySelector("i").className = clickedReelObject.isSaved? 'ri-bookmark-fill save-filled':'ri-bookmark-line';
+    saveBtn.querySelector("h6").textContent = clickedReelObject.saveCount;
   }
 
   else if (followBtn){
