@@ -162,6 +162,7 @@ function addData() {
      <div class="reel" data-index="${idx}">
                     <video src="${elem.video}" autoplay muted loop></video>
                      <div class="mute"><i class="ri-volume-mute-fill"></i></div>
+                     <div class="play"><i class="ri-play-large-fill"></i></div>
                     <div class="bottom">
                         <div class="user">
                             <img src="${elem.profilePicture}" alt="" class="user-image">
@@ -211,6 +212,7 @@ reelsContainer.addEventListener("click", (e)=>{
   const commentBtn = e.target.closest(".comment");
   const shareBtn = e.target.closest(".share");
   const muteBtn = e.target.closest(".mute");
+  // const playBtn = e.target.closest(".play");
   
 
   if(likeBtn){
@@ -283,11 +285,20 @@ else if (shareBtn) {
 }
 else {
   const video = clickedReel.querySelector("video");
+  const playBtn = clickedReel.querySelector(".play");
+  const playIcon = playBtn.querySelector("i");
 
   if (video.paused) {
     video.play();
+    playIcon.className = "ri-play-large-fill";
+    
   } else {
     video.pause();
+    playIcon.className = "ri-pause-large-fill";
   }
+  playBtn.style.transform = "translate(-50%, -50%) scale(1)"
+  setTimeout(()=>{
+    playBtn.style.transform = "translate(-50%, -50%) scale(0)";
+  }, 600)
 }
 })
